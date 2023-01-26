@@ -1,2 +1,3 @@
-# rusty-os
-📟 here i store my work for operating systems class i took at reed college
+# rusty os
+
+yay os written in rust!
