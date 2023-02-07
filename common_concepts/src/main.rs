@@ -31,4 +31,16 @@ fn main() {
 
     let element = a[index];
     println!("the value of the element at index {index} is: {element}");
+
+    // example from the lecture
+    let mut s1= String::from("hello");
+    s1.push_str("world!");
+    println!("{s1}");
+
+    // borrow s1
+    let s2 = &mut s1;
+    s2.push_str("lol");
+    println!("{s2}");
+
+    println!("{s1}");
 }
